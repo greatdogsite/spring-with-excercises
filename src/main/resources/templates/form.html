@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" /> <!-- Note the closing '/' character -->
+
+    <title>Title</title>
+</head>
+<body>
+
+<label>What is your name?</label>
+<form method = 'post' action = '/hello'><!--// sends to url/hello-->
+    <input type = 'text' name = 'coder' /> <!--    // sends ?coder=string-->
+    <select name='language' id='language-select'>
+        <option value='german'>german</option>
+        <option value='english'>english</option>
+        <option value='ukrainian'>ukrainian</option>
+        <option value='spanish'>spanish</option>
+        <option value='merican'>merican</option>
+        </select>
+    <input type = 'submit' value = 'Greet Me!' />
+   </form>
+
+</body>
+</html>
